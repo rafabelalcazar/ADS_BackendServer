@@ -21,7 +21,6 @@ jobs:
               uses: azure/webapps-deploy@v2
               with:
                 app-name: 'node-ci-cd'
-                slot-name: 'Production'
                 publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D58002FCEF6344D8887B23B98789DEAC }}
                 package: .
 
