@@ -25,7 +25,7 @@ app.get('/cervezas', function (req, res) {
                 cantidad: 600
             },
         ],
-        mensaje: '¡A beber cerveza!',
+        mensaje: '¡Test!',
     })
 })
 
